@@ -4,13 +4,7 @@
 <web-app>
  <display-name>Palakkad Application</display-name>
  <description>Demo Application</description>
- <!-- 
- <context-param>
-  <param-name>org.picketlink.federation.saml.CONFIG_PROVIDER</param-name>
-  <param-value>org.picketlink.identity.federation.bindings.tomcat.sp.ServiceProviderAuthenticator</param-value>
- </context-param>
-  
- Define a Security Constraint on this Application -->
+ <!-- Define a Security Constraint on this Application  -->
  <security-constraint>
   <web-resource-collection>
    <web-resource-name>securezone</web-resource-name>
