@@ -5,10 +5,10 @@
 <body>
 
 <div align="center">
-<h1>Welcome to the Palakkad</h1>
+<h1>Welcome to Palakkad!</h1>
 <br/>
-Welcome to the ;)
-
+<a href="/palakkad/jsp/securezone/index.jsp">Click to
+			Login</a>
 <br/>
 </body>
 </html>

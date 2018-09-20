@@ -37,7 +37,7 @@
 		Welcome to the Palakkad,
 		<%=name%>
 
-		<br /> Here is your Request Details: <a href="?GLO=true">Click to
+		<br /> Here is your Request Details: <a href="/palakkad/logout.jsp">Click to
 			LogOut</a>
 
 	</div>

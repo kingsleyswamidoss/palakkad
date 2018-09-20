@@ -8,7 +8,7 @@
  <security-constraint>
   <web-resource-collection>
    <web-resource-name>securezone</web-resource-name>
-   <url-pattern>/*</url-pattern>
+   <url-pattern>/jsp/securezone/*</url-pattern>
   </web-resource-collection>
   <auth-constraint>
    <role-name>testrole</role-name>

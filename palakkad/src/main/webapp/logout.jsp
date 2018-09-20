@@ -24,7 +24,14 @@
 <html>
 <head>
 <title>PicketLink Example Application</title>
-<META HTTP-EQUIV="refresh" CONTENT="1;URL=<%= request.getContextPath() %>">
+<%
+HttpSession s = request.getSession(false);
+if (s != null) {
+    s.invalidate();
+}
+request.logout();
+%>
+<META HTTP-EQUIV="refresh" CONTENT="1;URL=http://localhost:8080/auth/realms/okta-realm/protocol/openid-connect/logout?redirect_uri=http%3A%2F%2Flocalhost%3A7070%2Fpalakkad%2Findex.jsp">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="StyleSheet" href="css/idp.css" type="text/css">
 </head>
